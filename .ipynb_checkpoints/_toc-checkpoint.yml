@@ -8,9 +8,9 @@ parts:
   numbered: true
   chapters:
   - file: markdown
+  - file: notebooks
 - caption: Elementos
   numbered: true 
   chapters:
-  - file: notebooks
   - file: Fisicoquimica_IV_24I
   - file: markdown-notebooks
