@@ -55,12 +55,17 @@ Este libro permite interactuar con el contenido. Seleccione la opción que le re
 :class: dropdown
 
 Puede ejecutar los notebooks directamente en el libro haciendo clic sobre el botón de la nave, y luego sobre el botón de Live Code.
+
+![1](live_code.png "a")
+
 ```
 
 ```{tip}
 :class: dropdown
 
 Los notebooks pueden ejecutarse en línea desde Google Colab al presionar el ícono de la nave y dar clic sobre Colab, este ícono aparece en la parte superior de cada notebook. Los archivos en Google Colab se pueden guardar en su Google Drive.
+
+![2](google_colab.png "b")
 ```
 
 # Introducción a Python
