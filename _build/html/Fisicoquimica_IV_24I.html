@@ -575,14 +575,14 @@ E_k = \frac{p^2}{2m}
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">math</span>
 
 <span class="c1"># Constantes</span>
-<span class="n">h</span> <span class="o">=</span> <span class="mf">6.62607015e-34</span>      <span class="c1"># Constante de Planck en J·s</span>
-<span class="n">m_e</span> <span class="o">=</span> <span class="mf">9.10938356e-31</span>    <span class="c1"># Masa del electrón en kg</span>
-<span class="n">e</span> <span class="o">=</span> <span class="mf">1.602176634e-19</span>     <span class="c1"># Carga del electrón en C</span>
+<span class="n">h_planck</span> <span class="o">=</span> <span class="mf">6.62607015e-34</span>      <span class="c1"># Constante de Planck en J·s</span>
+<span class="n">m_electron</span> <span class="o">=</span> <span class="mf">9.10938356e-31</span>    <span class="c1"># Masa del electrón en kg</span>
+<span class="n">q_electron</span> <span class="o">=</span> <span class="mf">1.602176634e-19</span>     <span class="c1"># Carga del electrón en C</span>
 <span class="c1"># Diferencia de potencial en V (40 kV)   </span>
 <span class="n">V</span> <span class="o">=</span> <span class="mf">40e3</span>                <span class="c1"># @param{type:&quot;number&quot;}</span>
 
 <span class="c1"># Calculando la longitud de onda λ = h / sqrt(2*m_e*V*e)</span>
-<span class="n">lambda_e</span> <span class="o">=</span> <span class="n">h</span> <span class="o">/</span> <span class="n">math</span><span class="o">.</span><span class="n">sqrt</span><span class="p">(</span><span class="mi">2</span> <span class="o">*</span> <span class="n">m_e</span> <span class="o">*</span> <span class="n">V</span> <span class="o">*</span> <span class="n">e</span><span class="p">)</span>
+<span class="n">lambda_e</span> <span class="o">=</span> <span class="n">h_planck</span> <span class="o">/</span> <span class="n">math</span><span class="o">.</span><span class="n">sqrt</span><span class="p">(</span><span class="mi">2</span> <span class="o">*</span> <span class="n">m_electron</span> <span class="o">*</span> <span class="n">V</span> <span class="o">*</span> <span class="n">q_electron</span><span class="p">)</span>
 
 <span class="c1"># Imprimir la longitud de onda en metros</span>
 <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;La longitud de onda de los electrones es: </span><span class="si">{</span><span class="n">lambda_e</span><span class="si">:</span><span class="s2">.2e</span><span class="si">}</span><span class="s2"> metros&quot;</span><span class="p">)</span>
@@ -654,20 +654,20 @@ p = 2.294* mv
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">math</span>
 
 <span class="c1"># Constantes</span>
-<span class="n">c</span> <span class="o">=</span> <span class="mf">3.00e8</span>  <span class="c1"># Velocidad de la luz en m/s</span>
-<span class="n">m</span> <span class="o">=</span> <span class="mf">9.109e-31</span>  <span class="c1"># Masa en reposo del electrón en kg</span>
-<span class="n">h</span> <span class="o">=</span> <span class="mf">6.626e-34</span>  <span class="c1"># Constante de Planck en Js</span>
+<span class="n">c_luz</span> <span class="o">=</span> <span class="mf">3.00e8</span>          <span class="c1"># Velocidad de la luz en m/s</span>
+<span class="n">m_electron</span> <span class="o">=</span> <span class="mf">9.109e-31</span>  <span class="c1"># Masa en reposo del electrón en kg</span>
+<span class="n">h_planck</span> <span class="o">=</span> <span class="mf">6.626e-34</span>    <span class="c1"># Constante de Planck en Js</span>
 <span class="c1"># Velocidad del electrón en múltiplos de c </span>
-<span class="n">v</span> <span class="o">=</span> <span class="mf">0.5</span> <span class="o">*</span> <span class="n">c</span>            <span class="c1"># @param{type:&quot;number&quot;}</span>
+<span class="n">v</span> <span class="o">=</span> <span class="mf">0.5</span> <span class="o">*</span> <span class="n">c_luz</span>         <span class="c1"># @param{type:&quot;number&quot;}</span>
 
 <span class="c1"># Cálculo del factor gamma (γ) de Lorentz</span>
-<span class="n">gamma</span> <span class="o">=</span> <span class="mi">1</span> <span class="o">/</span> <span class="n">math</span><span class="o">.</span><span class="n">sqrt</span><span class="p">(</span><span class="mi">1</span> <span class="o">-</span> <span class="p">(</span><span class="n">v</span> <span class="o">/</span> <span class="n">c</span><span class="p">)</span><span class="o">**</span><span class="mi">2</span><span class="p">)</span>
+<span class="n">gamma</span> <span class="o">=</span> <span class="mi">1</span> <span class="o">/</span> <span class="n">math</span><span class="o">.</span><span class="n">sqrt</span><span class="p">(</span><span class="mi">1</span> <span class="o">-</span> <span class="p">(</span><span class="n">v</span> <span class="o">/</span> <span class="n">c_luz</span><span class="p">)</span><span class="o">**</span><span class="mi">2</span><span class="p">)</span>
 
 <span class="c1"># Cálculo del momento (p) del electrón</span>
-<span class="n">p</span> <span class="o">=</span> <span class="n">gamma</span> <span class="o">*</span> <span class="n">m</span> <span class="o">*</span> <span class="n">v</span>
+<span class="n">p</span> <span class="o">=</span> <span class="n">gamma</span> <span class="o">*</span> <span class="n">m_electron</span> <span class="o">*</span> <span class="n">v</span>
 
 <span class="c1"># Cálculo de la longitud de onda de De Broglie (λ)</span>
-<span class="n">lambda_de_broglie</span> <span class="o">=</span> <span class="n">h</span> <span class="o">/</span> <span class="n">p</span>
+<span class="n">lambda_de_broglie</span> <span class="o">=</span> <span class="n">h_planck</span> <span class="o">/</span> <span class="n">p</span>
 
 <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;La longitud de onda de De Broglie del electrón es: </span><span class="si">{</span><span class="n">lambda_de_broglie</span><span class="si">:</span><span class="s2">.2e</span><span class="si">}</span><span class="s2"> m&quot;</span><span class="p">)</span>
 </pre></div>
