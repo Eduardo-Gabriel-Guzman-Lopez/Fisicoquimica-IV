@@ -54,16 +54,11 @@ Este libro permite interactuar con el contenido. Seleccione la opción que le re
 ```{tip}
 :class: dropdown
 
-Puede ejecutar los notebooks directamente en el libro haciendo clic sobre el botón de la nave, y luego sobre el botón de Live Code.
+Las páginas que poseen el símbolo de un cohete son notebooks interactivas y se pueden ejecutar directamente haciendo clic en alguna de las opciones que vienen: 
 
-![1](live_code.png "a")
-
-```
-
-```{tip}
-:class: dropdown
-
-Los notebooks pueden ejecutarse en línea desde Google Colab al presionar el ícono de la nave y dar clic sobre Colab, este ícono aparece en la parte superior de cada notebook. Los archivos en Google Colab se pueden guardar en su Google Drive.
+1- Binder
+2- Google Colab
+3- Live Code
 
 ![2](google_colab.png "b")
 ```

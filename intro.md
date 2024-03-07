@@ -6,7 +6,7 @@ Este libro es una introducción interactiva a la Química Cuántica, diseñado p
 
 ## Autores
 
-- Dr. Eduardo Gabriel Guzmán López , eggl.quimica@gmail.com
+- M. en C. Eduardo Gabriel Guzmán López , eggl.quimica@gmail.com
 - Dra. Annia Galano, agalano@gmail.com
 
 # Objetivos del Curso
