@@ -62,8 +62,8 @@
     <script>DOCUMENTATION_OPTIONS.pagename = 'markdown';</script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="Introducción a Python" href="python-operaciones.html" />
-    <link rel="prev" title="Bienvenidos al Libro electrónico de Fisicoquímica IV: Explorando la Química Cuántica" href="intro.html" />
+    <link rel="next" title="Ejemplos del uso de python" href="Ejemplos_python.html" />
+    <link rel="prev" title="Bienvenidos al libro electrónico de Fisicoquímica IV: Explorando la Química Cuántica" href="intro.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
   </head>
@@ -174,13 +174,12 @@
         <ul class="nav bd-sidenav bd-sidenav__home-link">
             <li class="toctree-l1">
                 <a class="reference internal" href="intro.html">
-                    Bienvenidos al Libro electrónico de Fisicoquímica IV: Explorando la Química Cuántica
+                    Bienvenidos al libro electrónico de Fisicoquímica IV: Explorando la Química Cuántica
                 </a>
             </li>
         </ul>
         <ul class="current nav bd-sidenav">
 <li class="toctree-l1 current active"><a class="current reference internal" href="#">Libro electrónico y python</a></li>
-
 
 <li class="toctree-l1"><a class="reference internal" href="notebooks.html">Pablito clavo un clavitoooo</a></li>
 
@@ -397,13 +396,7 @@ document.write(`
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#uso-de-la-libreria-matplotlib-pyplot">Uso de la libreria <code class="docutils literal notranslate"><span class="pre">matplotlib.pyplot</span></code></a></li>
 </ul>
 </li>
-</ul>
-</li>
-<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#markdown-files">Markdown Files</a><ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#what-is-myst">What is MyST?</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#sample-roles-and-directives">Sample Roles and Directives</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#citations">Citations</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#learn-more">Learn more</a></li>
 </ul>
 </li>
 </ul>
@@ -483,7 +476,7 @@ y = \tan(x) = \frac{\sin(x)}{\cos(x)}
 <h2>Comentarios<a class="headerlink" href="#comentarios" title="Link to this heading">#</a></h2>
 <p>Los comentarios se utilizan para explicar el código. No se ejecutan. Se crean con el símbolo <code class="docutils literal notranslate"><span class="pre">#</span></code>, cuando este símbolo no es usado al inicio se interpreta como una línea de código a ejecutar y dependiendo del comando que se use es la acción que se realizará, por ejemplo, para imprimir en pantalla se puede emplear el comando <code class="docutils literal notranslate"><span class="pre">print()</span></code> y dentro escribirmos entre comillas el msj.</p>
 <div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="c1"># Esto es un comentario</span>
-<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Hola, mundo)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Hola, mundo&quot;</span><span class="p">)</span>
 </pre></div>
 </div>
 </section>
@@ -579,37 +572,6 @@ y = \tan(x) = \frac{\sin(x)}{\cos(x)}
 Con plot indicamos las variables a graficar, title y label asignamos etiquetas al gráfico y con show se muestra el gráfico.</p>
 </section>
 </section>
-</section>
-<section class="tex2jax_ignore mathjax_ignore" id="markdown-files">
-<h1>Markdown Files<a class="headerlink" href="#markdown-files" title="Link to this heading">#</a></h1>
-<p>Whether you write your book’s content in Jupyter Notebooks (<code class="docutils literal notranslate"><span class="pre">.ipynb</span></code>) or
-in regular markdown files (<code class="docutils literal notranslate"><span class="pre">.md</span></code>), you’ll write in the same flavor of markdown
-called <strong>MyST Markdown</strong>.
-This is a simple file to help you get started and show off some syntax.</p>
-<section id="what-is-myst">
-<h2>What is MyST?<a class="headerlink" href="#what-is-myst" title="Link to this heading">#</a></h2>
-<p>MyST stands for “Markedly Structured Text”. It
-is a slight variation on a flavor of markdown called “CommonMark” markdown,
-with small syntax extensions to allow you to write <strong>roles</strong> and <strong>directives</strong>
-in the Sphinx ecosystem.</p>
-<p>For more about MyST, see <a class="reference external" href="https://jupyterbook.org/content/myst.html">the MyST Markdown Overview</a>.</p>
-</section>
-<section id="sample-roles-and-directives">
-<h2>Sample Roles and Directives<a class="headerlink" href="#sample-roles-and-directives" title="Link to this heading">#</a></h2>
-<p>Roles and directives are two of the most powerful tools in Jupyter Book. They
-are like functions, but written in a markup language. They both
-serve a similar purpose, but <strong>roles are written in one line</strong>, whereas
-<strong>directives span many lines</strong>. They both accept different kinds of inputs,
-and what they do with those inputs depends on the specific role or directive
-that is being called.</p>
-<p>Here is a “note” directive:</p>
-<div class="admonition note">
-<p class="admonition-title">Note</p>
-<p>Here is a note</p>
-</div>
-<p>It will be rendered in a special box when you build your book.</p>
-<p>Here is an inline directive to refer to a document: <a class="reference internal" href="markdown-notebooks.html"><span class="doc">Notebooks with MyST Markdown</span></a>.</p>
-</section>
 <section id="citations">
 <h2>Citations<a class="headerlink" href="#citations" title="Link to this heading">#</a></h2>
 <p>You can also cite references that are stored in a <code class="docutils literal notranslate"><span class="pre">bibtex</span></code> file. For example,
@@ -628,11 +590,6 @@ then the bibliography is inserted with:</p>
 </div>
 </div>
 </div>
-</section>
-<section id="learn-more">
-<h2>Learn more<a class="headerlink" href="#learn-more" title="Link to this heading">#</a></h2>
-<p>This is just a simple starter to get you started.
-You can learn a lot more at <a class="reference external" href="https://jupyterbook.org">jupyterbook.org</a>.</p>
 </section>
 </section>
 
@@ -672,15 +629,15 @@ You can learn a lot more at <a class="reference external" href="https://jupyterb
       <i class="fa-solid fa-angle-left"></i>
       <div class="prev-next-info">
         <p class="prev-next-subtitle">previous</p>
-        <p class="prev-next-title">Bienvenidos al Libro electrónico de Fisicoquímica IV: Explorando la Química Cuántica</p>
+        <p class="prev-next-title">Bienvenidos al libro electrónico de Fisicoquímica IV: Explorando la Química Cuántica</p>
       </div>
     </a>
     <a class="right-next"
-       href="python-operaciones.html"
+       href="Ejemplos_python.html"
        title="next page">
       <div class="prev-next-info">
         <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">Introducción a Python</p>
+        <p class="prev-next-title">Ejemplos del uso de python</p>
       </div>
       <i class="fa-solid fa-angle-right"></i>
     </a>
@@ -714,13 +671,7 @@ You can learn a lot more at <a class="reference external" href="https://jupyterb
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#uso-de-la-libreria-matplotlib-pyplot">Uso de la libreria <code class="docutils literal notranslate"><span class="pre">matplotlib.pyplot</span></code></a></li>
 </ul>
 </li>
-</ul>
-</li>
-<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#markdown-files">Markdown Files</a><ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#what-is-myst">What is MyST?</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#sample-roles-and-directives">Sample Roles and Directives</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#citations">Citations</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#learn-more">Learn more</a></li>
 </ul>
 </li>
 </ul>

@@ -8,8 +8,6 @@ parts:
   numbered: true
   chapters:
   - file: markdown
-  - file: python-operaciones
-
 - caption: Elementos
   numbered: true 
   chapters:
