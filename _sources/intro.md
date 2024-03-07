@@ -1,4 +1,4 @@
-# Bienvenidos al Libro Electrónico de Fisicoquímica IV: Explorando la Química Cuántica
+# Bienvenidos al Libro electrónico de Fisicoquímica IV: Explorando la Química Cuántica
 
 "Lo que no puedo crear, no lo entiendo." - Richard Feynman
 

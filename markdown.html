@@ -8,7 +8,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>Markdown Files &#8212; My sample book</title>
+    <title>Libro electrónico y python &#8212; My sample book</title>
   
   
   
@@ -57,11 +57,13 @@
     <script async="async" src="_static/sphinx-thebe.js?v=c100c467"></script>
     <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
     <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
+    <script>window.MathJax = {"options": {"processHtmlClass": "tex2jax_process|mathjax_process|math|output_area"}}</script>
+    <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
     <script>DOCUMENTATION_OPTIONS.pagename = 'markdown';</script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
     <link rel="next" title="Introducción a Python" href="python-operaciones.html" />
-    <link rel="prev" title="Bienvenidos al Libro Electrónico de Fisicoquímica IV: Explorando la Química Cuántica" href="intro.html" />
+    <link rel="prev" title="Bienvenidos al Libro electrónico de Fisicoquímica IV: Explorando la Química Cuántica" href="intro.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
   </head>
@@ -172,15 +174,14 @@
         <ul class="nav bd-sidenav bd-sidenav__home-link">
             <li class="toctree-l1">
                 <a class="reference internal" href="intro.html">
-                    Bienvenidos al Libro Electrónico de Fisicoquímica IV: Explorando la Química Cuántica
+                    Bienvenidos al Libro electrónico de Fisicoquímica IV: Explorando la Química Cuántica
                 </a>
             </li>
         </ul>
         <ul class="current nav bd-sidenav">
-<li class="toctree-l1 current active has-children"><a class="current reference internal" href="#">Markdown Files</a><input checked="" class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-1"><i class="fa-solid fa-chevron-down"></i></label><ul>
-<li class="toctree-l2"><a class="reference internal" href="python-operaciones.html">Introducción a Python</a></li>
-</ul>
-</li>
+<li class="toctree-l1 current active"><a class="current reference internal" href="#">Libro electrónico y python</a></li>
+
+
 <li class="toctree-l1"><a class="reference internal" href="notebooks.html">Pablito clavo un clavitoooo</a></li>
 
 <li class="toctree-l1"><a class="reference internal" href="markdown-notebooks.html">Notebooks with MyST Markdown</a></li>
@@ -372,7 +373,7 @@ document.write(`
               
 
 <div id="jb-print-docs-body" class="onlyprint">
-    <h1>Markdown Files</h1>
+    <h1>Libro electrónico y python</h1>
     <!-- Table of contents -->
     <div id="print-main-content">
         <div id="jb-print-toc">
@@ -382,11 +383,31 @@ document.write(`
             </div>
             <nav aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#">Libro electrónico y python</a><ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#cuadros-de-mensajes">Cuadros de mensajes</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#ejecutar-el-codigo-de-python">Ejecutar el código de python</a></li>
+</ul>
+</li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#introduccion-a-python">Introducción a Python</a><ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#comentarios">Comentarios</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#operaciones-aritmeticas">Operaciones Aritméticas</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#librerias">Librerias</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#uso-de-la-libreria-math">Uso de la librería <code class="docutils literal notranslate"><span class="pre">math</span></code></a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#uso-de-la-libreria-numpy">Uso de la libreria <code class="docutils literal notranslate"><span class="pre">numpy</span></code></a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#uso-de-la-libreria-matplotlib-pyplot">Uso de la libreria <code class="docutils literal notranslate"><span class="pre">matplotlib.pyplot</span></code></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#markdown-files">Markdown Files</a><ul class="visible nav section-nav flex-column">
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#what-is-myst">What is MyST?</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#sample-roles-and-directives">Sample Roles and Directives</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#citations">Citations</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#learn-more">Learn more</a></li>
 </ul>
+</li>
+</ul>
+
             </nav>
         </div>
     </div>
@@ -397,7 +418,169 @@ document.write(`
 <div id="searchbox"></div>
                 <article class="bd-article">
                   
-  <section class="tex2jax_ignore mathjax_ignore" id="markdown-files">
+  <section class="tex2jax_ignore mathjax_ignore" id="libro-electronico-y-python">
+<h1>Libro electrónico y python<a class="headerlink" href="#libro-electronico-y-python" title="Link to this heading">#</a></h1>
+<p>“La imaginación es más importante que el conocimiento. El conocimiento es limitado, mientras que la imaginación abarca el mundo entero.” - Albert Einstein</p>
+<p>Esta sección introduce el uso de libros electrónicos, una herramienta clave para el estudio moderno. A lo largo de este recurso, encontrarás diversos tipos de mensajes como notas, tips, advertencias y explicaciones matemáticas. Cada uno está diseñado para mejorar tu comprensión y retención del material presentado, ofreciendo una experiencia de aprendizaje directa y centrada en el contenido. Este formato digital te permitirá interactuar con el material de manera efectiva, asegurando que cada concepto no solo sea comprendido sino también aplicable</p>
+<section id="cuadros-de-mensajes">
+<h2>Cuadros de mensajes<a class="headerlink" href="#cuadros-de-mensajes" title="Link to this heading">#</a></h2>
+<p>A lo largo del libro se estarán usando un par de msj que debes tomar en cuenta:</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p><strong>Nota Importante:</strong> Esto es una nota o aclaración.</p>
+</div>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>Advertencia
+“Ten cuidado cuando…”</p>
+</div>
+<div class="before admonition">
+<p class="admonition-title">Antes de empezar</p>
+<p>“Deberás de tener claras algunas cosas antes”</p>
+</div>
+<div class="tip admonition">
+<p class="admonition-title">Tip para esta actividad</p>
+<p>“Esto es un tip”</p>
+</div>
+<div class="dropdown admonition">
+<p class="admonition-title">Desarrollo matemático</p>
+<p>Aquí aparecerán un par de resultados matemáticos que te pueden ser útiles.</p>
+<div class="math notranslate nohighlight">
+\[
+y = \sin(x)
+\]</div>
+<div class="math notranslate nohighlight">
+\[
+y = \cos(x)
+\]</div>
+<div class="math notranslate nohighlight">
+\[
+y = \tan(x) = \frac{\sin(x)}{\cos(x)}
+\]</div>
+</div>
+<div class="attention admonition">
+<p class="admonition-title">Atención</p>
+<p>“…”</p>
+</div>
+</section>
+<section id="ejecutar-el-codigo-de-python">
+<h2>Ejecutar el código de python<a class="headerlink" href="#ejecutar-el-codigo-de-python" title="Link to this heading">#</a></h2>
+<p>Este libro permite interactuar con el contenido. Seleccione la opción que le resulte más conveniente</p>
+<div class="dropdown admonition tip">
+<p class="admonition-title">Tip</p>
+<p>Puede ejecutar los notebooks directamente en el libro haciendo clic sobre el botón de la nave, y luego sobre el botón de Live Code.</p>
+</div>
+<div class="dropdown admonition tip">
+<p class="admonition-title">Tip</p>
+<p>Los notebooks pueden ejecutarse en línea desde Google Colab al presionar el ícono de la nave y dar clic sobre Colab, este ícono aparece en la parte superior de cada notebook. Los archivos en Google Colab se pueden guardar en su Google Drive.</p>
+</div>
+</section>
+</section>
+<section class="tex2jax_ignore mathjax_ignore" id="introduccion-a-python">
+<h1>Introducción a Python<a class="headerlink" href="#introduccion-a-python" title="Link to this heading">#</a></h1>
+<p>Python es un lenguaje de programación poderoso y fácil de aprender. Aquí veremos dos conceptos básicos: comentarios y la función <code class="docutils literal notranslate"><span class="pre">print()</span></code>.</p>
+<section id="comentarios">
+<h2>Comentarios<a class="headerlink" href="#comentarios" title="Link to this heading">#</a></h2>
+<p>Los comentarios se utilizan para explicar el código. No se ejecutan. Se crean con el símbolo <code class="docutils literal notranslate"><span class="pre">#</span></code>, cuando este símbolo no es usado al inicio se interpreta como una línea de código a ejecutar y dependiendo del comando que se use es la acción que se realizará, por ejemplo, para imprimir en pantalla se puede emplear el comando <code class="docutils literal notranslate"><span class="pre">print()</span></code> y dentro escribirmos entre comillas el msj.</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="c1"># Esto es un comentario</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Hola, mundo)</span>
+</pre></div>
+</div>
+</section>
+<section id="operaciones-aritmeticas">
+<h2>Operaciones Aritméticas<a class="headerlink" href="#operaciones-aritmeticas" title="Link to this heading">#</a></h2>
+<p>Algunas de las operaciones básicas que puedes realizar en Python son:</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="c1"># Suma</span>
+<span class="nb">print</span><span class="p">(</span><span class="mi">5</span> <span class="o">+</span> <span class="mi">3</span><span class="p">)</span>
+
+<span class="c1"># Resta</span>
+<span class="nb">print</span><span class="p">(</span><span class="mi">10</span> <span class="o">-</span> <span class="mi">2</span><span class="p">)</span>
+
+<span class="c1"># Multiplicación</span>
+<span class="nb">print</span><span class="p">(</span><span class="mi">4</span> <span class="o">*</span> <span class="mi">2</span><span class="p">)</span>
+
+<span class="c1"># División</span>
+<span class="nb">print</span><span class="p">(</span><span class="mi">8</span> <span class="o">/</span> <span class="mi">2</span><span class="p">)</span>
+
+<span class="c1"># Módulo (resto de la división)</span>
+<span class="nb">print</span><span class="p">(</span><span class="mi">10</span> <span class="o">%</span> <span class="mi">3</span><span class="p">)</span>
+
+<span class="c1"># Potencia</span>
+<span class="nb">print</span><span class="p">(</span><span class="mi">2</span> <span class="o">**</span> <span class="mi">3</span><span class="p">)</span>
+
+<span class="c1"># División entera</span>
+<span class="nb">print</span><span class="p">(</span><span class="mi">9</span> <span class="o">//</span> <span class="mi">2</span><span class="p">)</span>
+</pre></div>
+</div>
+</section>
+<section id="librerias">
+<h2>Librerias<a class="headerlink" href="#librerias" title="Link to this heading">#</a></h2>
+<p>Python ofrece una amplia gama de librerías estándar y de terceros, se importan con la palabra reservada <code class="docutils literal notranslate"><span class="pre">import</span></code>. Entre ellas, la librería <code class="docutils literal notranslate"><span class="pre">math</span></code> proporciona acceso a funciones matemáticas.</p>
+<section id="uso-de-la-libreria-math">
+<h3>Uso de la librería <code class="docutils literal notranslate"><span class="pre">math</span></code><a class="headerlink" href="#uso-de-la-libreria-math" title="Link to this heading">#</a></h3>
+<p>Para utilizar la librería <code class="docutils literal notranslate"><span class="pre">math</span></code>, primero es necesario importarla al inicio del código:</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">math</span>
+</pre></div>
+</div>
+<p>Después de la importación, puedes acceder a sus constantes y funciones. Por ejemplo, math.pi es una constante que representa el valor de π, y math.sin() es una función que calcula el seno de un número (el argumento dentro de los paréntesis).</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="c1"># Ejemplo utilizando math.pi y math.sin()</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;El seno de π es:&quot;</span><span class="p">,</span> <span class="n">math</span><span class="o">.</span><span class="n">sin</span><span class="p">(</span><span class="n">math</span><span class="o">.</span><span class="n">pi</span><span class="p">))</span>
+
+<span class="c1"># Ejemplo calculando la raíz cuadrada de 4 con math.sqrt()</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;La raíz cuadrada de 4 es:&quot;</span><span class="p">,</span> <span class="n">math</span><span class="o">.</span><span class="n">sqrt</span><span class="p">(</span><span class="mi">4</span><span class="p">))</span>
+</pre></div>
+</div>
+</section>
+<section id="uso-de-la-libreria-numpy">
+<h3>Uso de la libreria <code class="docutils literal notranslate"><span class="pre">numpy</span></code><a class="headerlink" href="#uso-de-la-libreria-numpy" title="Link to this heading">#</a></h3>
+<p>NumPy es una librería esencial en Python para el cálculo numérico, especialmente conocida por su eficiencia en operaciones con arrays y matrices.</p>
+<p>Para utilizar numpy, primero debes importarla al inicio de tu código:</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
+</pre></div>
+</div>
+<p>Una vez importada, puedes aprovechar sus funciones y constantes. Por ejemplo, np.array para crear arreglos y np.sin para calcular el seno de los elementos de un arreglo.</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="c1"># Crear un arreglo de numpy</span>
+<span class="n">arreglo</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([</span><span class="n">np</span><span class="o">.</span><span class="n">pi</span><span class="p">,</span> <span class="n">np</span><span class="o">.</span><span class="n">pi</span><span class="o">/</span><span class="mi">2</span><span class="p">,</span> <span class="n">np</span><span class="o">.</span><span class="n">pi</span><span class="o">/</span><span class="mi">4</span><span class="p">])</span>
+
+<span class="c1"># Calcular el seno del arreglo</span>
+<span class="n">seno_arreglo</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">sin</span><span class="p">(</span><span class="n">arreglo</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;El seno del arreglo es:&quot;</span><span class="p">,</span> <span class="n">seno_arreglo</span><span class="p">)</span>
+
+<span class="c1"># Calcular la raíz cuadrada de cada elemento en un nuevo arreglo</span>
+<span class="n">raiz_arreglo</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">sqrt</span><span class="p">([</span><span class="mi">1</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">9</span><span class="p">])</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;La raíz cuadrada del arreglo es:&quot;</span><span class="p">,</span> <span class="n">raiz_arreglo</span><span class="p">)</span>
+</pre></div>
+</div>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p><strong>Nota Importante:</strong> Si bien es cierto que numpy es muy poderoso para la manipulación de grandes cantidades de datos nosotros lo emplearemos principalmente con el fin de realizar gráficas de funciones y para ello es necesario importar el modulo <code class="docutils literal notranslate"><span class="pre">matplotlib.pyplot</span></code>.</p>
+</div>
+</section>
+<section id="uso-de-la-libreria-matplotlib-pyplot">
+<h3>Uso de la libreria <code class="docutils literal notranslate"><span class="pre">matplotlib.pyplot</span></code><a class="headerlink" href="#uso-de-la-libreria-matplotlib-pyplot" title="Link to this heading">#</a></h3>
+<p>Al igual que en los otros modulos, matplotlib.pyplot se debe importar al inicio del código, pero también incluyendo a numpy:</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
+<span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plt</span>
+</pre></div>
+</div>
+<p>Luego, se pueden crear datos para graficar y se utilizan las funciones de matplotlib para crear una gráfica (plot, title, xlabel, ylabel, show, etc).</p>
+<p>Por ejemplo, para graficar una función seno:</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">x</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">linspace</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">2</span> <span class="o">*</span> <span class="n">np</span><span class="o">.</span><span class="n">pi</span><span class="p">,</span> <span class="mi">100</span><span class="p">)</span>
+<span class="n">y</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">sin</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>
+
+<span class="n">plt</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">title</span><span class="p">(</span><span class="s2">&quot;Función Seno&quot;</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">xlabel</span><span class="p">(</span><span class="s2">&quot;x&quot;</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">ylabel</span><span class="p">(</span><span class="s2">&quot;sin(x)&quot;</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+</pre></div>
+</div>
+<p>Con numpy se crean 100 puntos entre 0 y 2π que serán evaluados en la función y=sin(x).
+Con plot indicamos las variables a graficar, title y label asignamos etiquetas al gráfico y con show se muestra el gráfico.</p>
+</section>
+</section>
+</section>
+<section class="tex2jax_ignore mathjax_ignore" id="markdown-files">
 <h1>Markdown Files<a class="headerlink" href="#markdown-files" title="Link to this heading">#</a></h1>
 <p>Whether you write your book’s content in Jupyter Notebooks (<code class="docutils literal notranslate"><span class="pre">.ipynb</span></code>) or
 in regular markdown files (<code class="docutils literal notranslate"><span class="pre">.md</span></code>), you’ll write in the same flavor of markdown
@@ -451,8 +634,6 @@ then the bibliography is inserted with:</p>
 <p>This is just a simple starter to get you started.
 You can learn a lot more at <a class="reference external" href="https://jupyterbook.org">jupyterbook.org</a>.</p>
 </section>
-<div class="toctree-wrapper compound">
-</div>
 </section>
 
     <script type="text/x-thebe-config">
@@ -491,7 +672,7 @@ You can learn a lot more at <a class="reference external" href="https://jupyterb
       <i class="fa-solid fa-angle-left"></i>
       <div class="prev-next-info">
         <p class="prev-next-subtitle">previous</p>
-        <p class="prev-next-title">Bienvenidos al Libro Electrónico de Fisicoquímica IV: Explorando la Química Cuántica</p>
+        <p class="prev-next-title">Bienvenidos al Libro electrónico de Fisicoquímica IV: Explorando la Química Cuántica</p>
       </div>
     </a>
     <a class="right-next"
@@ -519,11 +700,31 @@ You can learn a lot more at <a class="reference external" href="https://jupyterb
   </div>
   <nav class="bd-toc-nav page-toc">
     <ul class="visible nav section-nav flex-column">
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#">Libro electrónico y python</a><ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#cuadros-de-mensajes">Cuadros de mensajes</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#ejecutar-el-codigo-de-python">Ejecutar el código de python</a></li>
+</ul>
+</li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#introduccion-a-python">Introducción a Python</a><ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#comentarios">Comentarios</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#operaciones-aritmeticas">Operaciones Aritméticas</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#librerias">Librerias</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#uso-de-la-libreria-math">Uso de la librería <code class="docutils literal notranslate"><span class="pre">math</span></code></a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#uso-de-la-libreria-numpy">Uso de la libreria <code class="docutils literal notranslate"><span class="pre">numpy</span></code></a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#uso-de-la-libreria-matplotlib-pyplot">Uso de la libreria <code class="docutils literal notranslate"><span class="pre">matplotlib.pyplot</span></code></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#markdown-files">Markdown Files</a><ul class="visible nav section-nav flex-column">
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#what-is-myst">What is MyST?</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#sample-roles-and-directives">Sample Roles and Directives</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#citations">Citations</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#learn-more">Learn more</a></li>
 </ul>
+</li>
+</ul>
+
   </nav></div>
 
 </div></div>
