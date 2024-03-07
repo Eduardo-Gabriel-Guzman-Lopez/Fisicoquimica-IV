@@ -1,0 +1,43 @@
+format: jb-book
+root: intro
+parts:
+- caption: Python
+  numbered: true
+  chapters:
+  - file: Tutorial-Basico
+  - file: Tutorial-Avanzado
+  - file: Series
+- caption: Sistemas Sencillos
+  numbered: true
+  chapters:
+  - file: Caja
+  - file: Tunel-Region-Infinita
+  - file: Tunel-Region-Finita
+    sections:
+      - file: CajaConTope
+  - file: Anillo
+  - file: Esfera
+  - file: Rotor
+  - file: Oscilador
+- caption: "Átomo de Hidrógeno"
+  numbered: true
+  chapters:
+  - file: Radial
+  - file: Orbitales
+- caption: "Métodos Aproximados"
+  numbered: true
+  chapters:
+  - file: Metodo-Variacional
+    sections:
+      - file: Algebra-Simbolica
+  - file: Variacional-Lineal
+  - file: PerturbacionesSinDegeneracion
+  - file: Huckel
+- caption: Sistemas de Muchos Electrones
+  numbered: true
+  chapters:
+  - file: Software
+  - file: Hartree-Fock
+  - file: Moller-Plesset
+  - file: DFT
+  - file: Dimerizacion
