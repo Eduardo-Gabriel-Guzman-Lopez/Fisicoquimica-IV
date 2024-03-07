@@ -1,8 +1,8 @@
-# Bienvenidos al Libro Electrónico de Fisicoquímica IV: Explorando la Química Cuántica
+# Bienvenidos al Libro electrónico de Fisicoquímica IV: Explorando la Química Cuántica
 
 "Lo que no puedo crear, no lo entiendo." - Richard Feynman
 
-Este libro es una introducción interactiva a la Química Cuántica, diseñado para estudiantes de la UAM Iztapalapa. Mediante un lenguaje de programación poderoso, abordaremos los principios fundamentales de la Química Cuántica y su aplicación práctica en la investigación.
+Este libro es una introducción interactiva a la Química Cuántica, diseñado para estudiantes de la UAM Iztapalapa. Mediante un lenguaje de programación poderoso abordaremos los principios fundamentales de la Química Cuántica y su aplicación práctica en la investigación.
 
 ## Autores
 
