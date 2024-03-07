@@ -12,5 +12,5 @@ parts:
   numbered: true 
   chapters:
   - file: notebooks
-  - file: markdown-notebooks
   - file: Fisicoquimica_IV_24I
+  - file: markdown-notebooks
