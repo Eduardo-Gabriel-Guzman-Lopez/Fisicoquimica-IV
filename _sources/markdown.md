@@ -1,4 +1,4 @@
-# Libro electrónico y python
+# Libro electrónico
 "La imaginación es más importante que el conocimiento. El conocimiento es limitado, mientras que la imaginación abarca el mundo entero." - Albert Einstein
 
 Esta sección introduce el uso de libros electrónicos, una herramienta clave para el estudio moderno. A lo largo de este recurso, encontrarás diversos tipos de mensajes como notas, tips, advertencias y explicaciones matemáticas. Cada uno está diseñado para mejorar tu comprensión y retención del material presentado, ofreciendo una experiencia de aprendizaje directa y centrada en el contenido. Este formato digital te permitirá interactuar con el material de manera efectiva, asegurando que cada concepto no solo sea comprendido sino también aplicable
